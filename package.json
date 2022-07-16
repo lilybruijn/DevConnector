@@ -1,7 +1,7 @@
 {
-  "name": "devconnector",
+  "name": "mbtool",
   "version": "1.0.0",
-  "description": "social network for developers",
+  "description": "moneybird tool for work",
   "main": "server.js",
   "scripts": {
     "start": "node server",
@@ -28,5 +28,13 @@
     "concurrently": "^7.2.2",
     "nodemon": "^2.0.19",
     "prettier": "2.7.1"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lilybruijn/mbtool.git"
+  },
+  "bugs": {
+    "url": "https://github.com/lilybruijn/mbtool/issues"
+  },
+  "homepage": "https://github.com/lilybruijn/mbtool#readme"
 }
