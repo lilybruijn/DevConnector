@@ -1,0 +1,35 @@
+create project
+create cluster
+
+with user
+DevConnector
+BcFEFDTdnitRP9hu
+
+connect
+connect your application
+
+mongodb+srv://DevConnector:BcFEFDTdnitRP9hu@devconnector.csjpsjf.mongodb.net/?retryWrites=true&w=majority
+
+create .gitignore file with node_modules/
+start npm init
+then install the dependencies: npm i express express-validator bcryptjs config gravatar jsonwebtoken mongoose request 
+then install dev dependencies: npm i -D nodemon concurrently
+
+npx create-react-app client
+in client, install dependencies: npm install axios react-router-dom redux react-redux redux-thunk redux-devtools-extension moment react-moment uuid
+
+scripts in package.json in the root should be as follows:
+
+"scripts": {
+    "start": "node server",
+    "server": "nodemon server",
+    "client": "npm start --prefix client",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
+  },
+
+in the package.json file in the client folder, add a proxy (port the server is running on)
+
+
+  "proxy" : "http://localhost:5000"
+
+include fontawesome in the head tags too
